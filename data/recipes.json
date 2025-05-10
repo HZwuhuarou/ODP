@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "西兰花炒鸡胸肉",
+        "ingredients": ["西兰花", "鸡胸肉", "大蒜"],
+        "disease": ["乳腺癌", "肺癌"],
+        "region": "华东"
+    },
+    {
+        "id": 2,
+        "name": "番茄豆腐汤",
+        "ingredients": ["番茄", "豆腐", "鸡蛋"],
+        "disease": ["胃癌", "肠癌"],
+        "region": "华南"
+    },
+    {
+        "id": 3,
+        "name": "胡萝卜炖牛肉",
+        "ingredients": ["胡萝卜", "牛肉", "土豆"],
+        "disease": ["贫血", "胃癌"],
+        "region": "华北"
+    },
+    {
+        "id": 4,
+        "name": "清蒸鲈鱼",
+        "ingredients": ["鲈鱼", "姜", "葱"],
+        "disease": ["肝癌", "胰腺癌"],
+        "region": "华东"
+    },
+    {
+        "id": 5,
+        "name": "南瓜小米粥",
+        "ingredients": ["南瓜", "小米", "枸杞"],
+        "disease": ["胃癌", "肠癌"],
+        "region": "华中"
+    },
+    {
+        "id": 6,
+        "name": "凉拌木耳",
+        "ingredients": ["黑木耳", "黄瓜", "胡萝卜"],
+        "disease": ["肺癌", "血癌"],
+        "region": "东北"
+    },
+    {
+        "id": 7,
+        "name": "红枣银耳羹",
+        "ingredients": ["银耳", "红枣", "枸杞"],
+        "disease": ["贫血", "乳腺癌"],
+        "region": "华东"
+    },
+    {
+        "id": 8,
+        "name": "蒜蓉菠菜",
+        "ingredients": ["菠菜", "大蒜", "芝麻"],
+        "disease": ["贫血", "肠癌"],
+        "region": "华北"
+    },
+    {
+        "id": 9,
+        "name": "山药排骨汤",
+        "ingredients": ["山药", "排骨", "枸杞"],
+        "disease": ["胃癌", "肝癌"],
+        "region": "华南"
+    },
+    {
+        "id": 10,
+        "name": "燕麦牛奶",
+        "ingredients": ["燕麦", "牛奶", "蜂蜜"],
+        "disease": ["乳腺癌", "肠癌"],
+        "region": "全国"
+    },
+    {
+        "id": 11,
+        "name": "清炒芦笋",
+        "ingredients": ["芦笋", "橄榄油", "盐"],
+        "disease": ["肺癌", "乳腺癌"],
+        "region": "华东"
+    },
+    {
+        "id": 12,
+        "name": "紫菜蛋花汤",
+        "ingredients": ["紫菜", "鸡蛋", "葱花"],
+        "disease": ["甲状腺癌", "贫血"],
+        "region": "全国"
+    },
+    {
+        "id": 13,
+        "name": "糙米饭",
+        "ingredients": ["糙米", "水"],
+        "disease": ["糖尿病", "肠癌"],
+        "region": "全国"
+    },
+    {
+        "id": 14,
+        "name": "蒸红薯",
+        "ingredients": ["红薯"],
+        "disease": ["肠癌", "胃癌"],
+        "region": "全国"
+    },
+    {
+        "id": 15,
+        "name": "水果沙拉",
+        "ingredients": ["苹果", "香蕉", "蓝莓", "酸奶"],
+        "disease": ["所有癌症"],
+        "region": "全国"
+    }
+]

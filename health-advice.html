@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康咨询 - 癌症患者饮食健康平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>癌症患者饮食健康平台</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="recipes.html">食谱推荐</a></li>
+                    <li class="active"><a href="health-advice.html">健康咨询</a></li>
+                    <li><a href="plan.html">计划制定</a></li>
+                    <li><a href="#">个人信息</a></li>
+                    <li><a href="#">积分商城</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="health-advice-section">
+            <h2>健康咨询</h2>
+            <div class="ai-assistant-container">
+                <div class="ai-profile">
+                    
+                    <div class="ai-info">
+                        <h3 id="ai-name">健康顾问</h3>
+                        <p id="ai-description">您的专属健康咨询助手</p>
+                    </div>
+                </div>
+                
+                <div class="chat-container" id="chat-container">
+                    <div class="chat-messages" id="chat-messages">
+                        <!-- 聊天消息将在这里动态生成 -->
+                    </div>
+                    <div class="chat-input">
+                        <textarea id="user-input" placeholder="请输入您的健康问题..."></textarea>
+                        <button id="send-btn">发送</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 癌症患者饮食健康平台. 保留所有权利.</p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+<script src="js/personality.js"></script>
+<script src="js/health-advice.js"></script>
+</html>

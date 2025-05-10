@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食谱推荐 - 癌症患者饮食健康平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>癌症患者饮食健康平台</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li class="active"><a href="recipes.html">食谱推荐</a></li>
+                    <li><a href="#">健康咨询</a></li>
+                    <li><a href="plan.html">计划制定</a></li>
+                    <li><a href="#">个人信息</a></li>
+                    <li><a href="#">积分商城</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="recipe-search">
+            <h2>食谱推荐</h2>
+            <div class="search-container">
+                <input type="text" id="recipe-search" placeholder="搜索食谱...">
+                <div class="search-options">
+                    <label><input type="radio" name="search-type" value="name" checked> 食物名称</label>
+                    <label><input type="radio" name="search-type" value="ingredients"> 主要食材</label>
+                    <label><input type="radio" name="search-type" value="disease"> 适用疾病</label>
+                </div>
+                <button id="search-btn">搜索</button>
+                <button id="reset-btn" class="btn secondary">显示全部</button>
+            </div>
+        </section>
+
+        <section class="recipe-results">
+            <div id="recipe-list" class="recipe-grid">
+                <!-- 食谱将通过JavaScript动态加载 -->
+                <p class="loading-text">正在加载食谱...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 癌症患者饮食健康平台. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/recipes.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!--计划-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计划制定 - 癌症患者饮食健康平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>癌症患者饮食健康平台</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="recipes.html">食谱推荐</a></li>
+                    <li><a href="#">健康咨询</a></li>
+                    <li class="active"><a href="plan.html">计划制定</a></li>
+                    <li><a href="#">个人信息</a></li>
+                    <li><a href="#">积分商城</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="plan-section">
+            <h2>制定您的健康计划</h2>
+            <div class="plan-controls">
+                <div class="date-selector">
+                    <label for="plan-date">选择日期:</label>
+                    <input type="date" id="plan-date">
+                </div>
+                <div class="quick-add">
+                    <label for="quick-recipes">快速添加食谱:</label>
+                    <select id="quick-recipes">
+                        <option value="">-- 选择食谱 --</option>
+                        <!-- 食谱将通过JavaScript动态加载 -->
+                    </select>
+                    <button id="add-recipe-btn">添加到计划</button>
+                </div>
+            </div>
+
+            <div class="plan-calendar">
+                <div class="day-plan">
+                    <h3 id="selected-date">今日计划</h3>
+                    <ul id="plan-items">
+                        <!-- 计划项目将通过JavaScript动态加载 -->
+                    </ul>
+                    <div class="plan-stats">
+                        <p>预计可获得积分: <span id="potential-points">0</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plan-actions">
+                <button id="save-plan-btn">保存计划</button>
+                <button id="complete-plan-btn">完成计划</button>
+            </div>
+        </section>
+
+        <section class="completed-plans">
+            <h3>已完成计划</h3>
+            <div id="completed-plans-list">
+                <!-- 已完成计划将通过JavaScript动态加载 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 癌症患者饮食健康平台. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/plan.js"></script>
+</body>
+</html>

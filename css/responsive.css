@@ -1,0 +1,70 @@
+/* 响应式设计 */
+@media (max-width: 992px) {
+    .plan-controls {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        padding: 10px 15px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-actions {
+        flex-direction: column;
+    }
+
+    #save-plan-btn, #complete-plan-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+
+    .search-options {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #plan-items li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
